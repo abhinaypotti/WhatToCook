@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_recipe_view_tabbed">RecipeViewTabbedActivity</string>
+    <string name="title_activity_home_navigation">HomeNavigationActivity</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_home_navigation_drawer">HomeNavigationDrawerActivity</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="_1_shanmuka_abhinay_potti"><a href="https://www.linkedin.com/in/potti-shanmuka-abhinay/">1.Shanmuka Abhinay Potti</a></string>
+    <string name="_2_kishore_reddy_bandi"><a href="https://www.linkedin.com/in/kishore-reddy-b1163a172">2.Kishore Reddy Bandi</a></string>
+    <string name="_3_praneeth_edara"><a href="https://www.instagram.com/night_____owl/">3.Praneeth Edara</a></string>
+    <string name="_4_kousik_kuchipudi"><a href="https://www.linkedin.com/in/kousik-kuchipudi-8a99031b7/">4.Kousik Kuchipudi</a></string>
+    <string name="contributors">Contributors</string>
+    <string name="biometric_title">What To Cook</string>
+    <string name="biometric_subtitle">Cook your Favorite Recipe easily now!</string>
+    <string name="biometric_description">" "</string>
+    <string name="biometric_negative_button_text">Cancel</string>
+    <string name="biometric_error_sdk_not_supported">biometric_error_sdk_not_supported</string>
+    <string name="biometric_error_hardware_not_supported">biometric_error_hardware_not_supported</string>
+    <string name="biometric_error_fingerprint_not_available">biometric_error_fingerprint_not_available</string>
+    <string name="biometric_error_permission_not_granted">biometric_error_permission_not_granted</string>
+    <string name="biometric_cancelled">biometric_cancelled</string>
+    <string name="biometric_success">biometric_success</string>
+</resources>

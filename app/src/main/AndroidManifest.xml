@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="abhinay.firstapp.project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launch_round"
+        android:label="What2Cook"
+        android:roundIcon="@mipmap/ic_launch"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="abhinay.firstapp.project.ChangePasswordActivity"></activity>
+        <activity
+            android:name="abhinay.firstapp.project.HomeNavigationActivity"
+            android:label="What2Cook"
+            android:theme="@style/AppTheme" />
+        <activity android:name="abhinay.firstapp.project.RecipeViewActivity" />
+        <activity android:name="abhinay.firstapp.project.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="abhinay.firstapp.project.RegisterActivity" />
+        <activity android:name="abhinay.firstapp.project.LoginActivity" />
+        <activity android:name="abhinay.firstapp.project.MainActivity" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

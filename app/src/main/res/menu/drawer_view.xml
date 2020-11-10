@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_welcome_fragment"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            android:checked="true"
+
+            />
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:icon="@drawable/ic_one"
+            android:title="Search Recipe"
+            />
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:icon="@drawable/ic_category"
+            android:title="Cook by category" />
+        <item
+            android:id="@+id/nav_video_fragment"
+            android:icon="@drawable/ic_video"
+            android:title="Recipe Videos"
+            />
+        <item
+            android:id="@+id/nav_indianhealthyrecipes"
+            android:icon="@drawable/ic_indian"
+            android:title="Indian Healthy Recipes"
+            />
+<!--        <item-->
+<!--            android:id="@+id/nav_third_fragment"-->
+<!--            android:icon="@drawable/ic_three"-->
+<!--            android:title="Third" />-->
+    </group>
+    <item android:title="Communication">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_app_creater"
+                    android:icon="@drawable/ic_baseline_person_24"
+                    android:title="App Creators" />
+                <item
+                    android:id="@+id/nav_reachus"
+                    android:icon="@drawable/phone"
+                    android:title="Reach us" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

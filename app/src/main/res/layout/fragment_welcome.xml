@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="abhinay.firstapp.project.WelcomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="Welcome!"
+            android:textColor="@color/white"
+            android:id="@+id/wel"
+            android:textSize="28dp"
+            android:gravity="center|top"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wel"
+            android:src="@drawable/logo_new_withoutbg"
+            android:id="@+id/logo_welcome"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Explore Now!"
+            android:padding="2dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/explore"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/logo_welcome"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_bg"
+            />
+
+
+    </RelativeLayout>
+</FrameLayout>

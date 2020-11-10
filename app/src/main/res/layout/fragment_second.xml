@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="abhinay.firstapp.project.SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Alphabet"
+                android:textOff="Sort by alphabet"
+                android:id="@+id/toggle1"
+                android:textColor="@color/colorDark"
+                android:layout_marginLeft="40dp"
+                android:padding="5dp"
+                android:background="@drawable/toggle_bg"
+                />
+<!--            <ToggleButton-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textOff="Show by Type"-->
+<!--                android:textOn="Type"-->
+<!--                android:padding="5dp"-->
+<!--                android:textColor="@color/colorDark"-->
+<!--                android:layout_marginLeft="40dp"-->
+<!--                android:id="@+id/toggle2"-->
+<!--                android:background="@drawable/toggle_bg"-->
+<!--                />-->
+
+
+        </LinearLayout>
+
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:padding="20dp"
+            >
+
+<!--            <EditText-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/editText"-->
+<!--                android:inputType="text"-->
+<!--                android:hint="Type a Recipe name"-->
+<!--                android:maxLength="50"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                />-->
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listView"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="10dp"
+                />
+
+        </FrameLayout>
+    </RelativeLayout>
+
+</FrameLayout>

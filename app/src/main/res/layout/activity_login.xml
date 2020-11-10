@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="abhinay.firstapp.project.LoginActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logo_new_withoutbg"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/login_logo"
+        android:layout_alignParentTop="true"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phonenumber"
+        android:layout_below="@+id/login_logo"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="Phone"
+        android:textColor="@color/white"
+        android:inputType="phone"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/edit_drawable"
+        android:textColorHint="@color/white"
+        android:background="@drawable/edittext_bg"
+        android:padding="5dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_below="@+id/phonenumber"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:hint="Password"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/edit_drawable_password"
+        android:textColorHint="@color/white"
+        android:background="@drawable/edittext_bg"
+        android:padding="5dp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:padding="2dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/login_loginbtn"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/password"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_bg"
+        />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_authenticate"
+        android:src="@drawable/ic_baseline_fingerprint_24"
+        android:layout_below="@+id/login_loginbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black"
+        android:onClick="authenticatefunction"
+        />
+</RelativeLayout>
